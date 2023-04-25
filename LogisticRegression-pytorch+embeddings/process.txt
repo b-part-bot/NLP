@@ -1,0 +1,15 @@
+1.Get glove embeddings
+2.Stop word / lemming/ stemming etc..
+3.load 
+
+
+
+i. use word embeddings as input features in logistic regression  - 
+    >>represent a sentence by averaging the vectors of words in the sentence. 
+    This is also known as the bag-of-words approach. To do this, first, we need to :
+    > obtain the word embeddings for each word in the sentence. We can use pre-trained word embeddings like Word2Vec or GloVe for this purpose.
+    >Once we have the word embeddings for each word in the sentence, we can compute the average of these vectors to get a single vector that represents the sentence. 
+        This vector can then be used as input to a logistic regression model.
+    >To train the logistic regression model, we would also need to label the sentences as positive or negative, or any other relevant categories. 
+        Once the model is trained, we can use it to predict the label for new sentences.
+    >
